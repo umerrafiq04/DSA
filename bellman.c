@@ -30,6 +30,8 @@ int main() {
         }
         printf("\n");  
     }
+
+    
 w[0]=0;
 for(int k=0;k<4;k++){
     for(int i=0;i<4;i++){
@@ -53,3 +55,5 @@ printf("\n");
     
     
     }
+
+    //disad: relaxing one more time than n-1 causes problem and bellman fails to solve if graph has a neg weight cycle
